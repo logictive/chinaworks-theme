@@ -1,0 +1,236 @@
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* Content Boxes
+------------------------------------------------------------ */
+.content-box-blue,
+.content-box-gray,
+.content-box-green,
+.content-box-purple,
+.content-box-red,
+.content-box-yellow {
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 20px;
+}
+ 
+.content-box-blue {
+    background-color: #d8ecf7;
+    border: 1px solid #afcde3;
+}
+ 
+.content-box-gray {
+    background-color: #e2e2e2;
+    border: 1px solid #bdbdbd;
+}
+ 
+.content-box-green {
+    background-color: #d9edc2;
+    border: 1px solid #b2ce96;
+}
+ 
+.content-box-purple {
+    background-color: #e2e2f9;
+    border: 1px solid #bebde9;
+}
+ 
+.content-box-red {
+    background-color: #f9dbdb;
+    border: 1px solid #e9b3b3;
+}
+ 
+.content-box-yellow {
+    background-color: #fef5c4;
+    border: 1px solid #fadf98;
+}
+
+/* Color Buttons
+------------------------------------------------------------ */
+.button-blue,
+.button-gray,
+.button-green,
+.button-purple,
+.button-red,
+.button-yellow {
+    color: #fff;
+    padding: 5px 10px;
+}
+ 
+.button-blue:hover,
+.button-gray:hover,
+.button-green:hover,
+.button-purple:hover,
+.button-red:hover,
+.button-yellow:hover {
+    text-decoration: none;
+}
+ 
+.button-blue {
+    background-color: #afcde3;
+    border: 1px solid #afcde3;
+}
+ 
+.button-blue:hover {
+    background-color: #83a2be;
+    border: 1px solid #83a2be;
+}
+ 
+.button-gray {
+    background-color: #bdbdbd;
+    border: 1px solid #bdbdbd;
+}
+ 
+.button-gray:hover {
+    background-color: #919191;
+    border: 1px solid #919191;
+}
+ 
+.button-green {
+    background-color: #b2ce96;
+    border: 1px solid #b2ce96;
+}
+ 
+.button-green:hover {
+    background-color: #86a36e;
+    border: 1px solid #86a36e;
+}
+ 
+.button-purple {
+    background-color: #bebde9;
+    border: 1px solid #bebde9;
+}
+ 
+.button-purple:hover {
+    background-color: #9291c7;
+    border: 1px solid #9291c7;
+}
+ 
+.button-red {
+    background-color: #e9b3b3;
+    border: 1px solid #e9b3b3;
+}
+ 
+.button-red:hover {
+    background-color: #c78787;
+    border: 1px solid #c78787;
+}
+ 
+.button-yellow {
+    background-color: #fadf98;
+    border: 1px solid #fadf98;
+}
+ 
+.button-yellow:hover {
+    background-color: #ecb870;
+    border: 1px solid #ecb870;
+}

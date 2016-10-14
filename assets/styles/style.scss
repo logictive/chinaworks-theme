@@ -1,0 +1,35 @@
+/*!
+Theme Name: Chinaworks
+Theme URI: http://www.nantgarwchinaworks.com
+Description: Cusomt Genesis Theme for Nantgarw Chinaworks
+Author: David Lewis
+Author URI: http://www.llogictive.co.uk
+Version: 1.0
+
+Template: genesis
+*/
+
+// Bourbon and Bitters imports
+@import "bourbon";
+//@import "base/base";	//uncomment to include Bitters variables/mixins
+
+// Reset, Variables, Mixins, Etc
+// DO NOT EDIT ORDER OF FILES
+@import "partials/mixins";
+@import "partials/variables";
+
+// Genesis
+@import "partials/genesis";
+
+// Page and Site Styles
+@import "partials/page";
+@import "partials/posts";
+@import "partials/accessibility";
+@import "partials/widgets";
+@import "partials/search";
+@import "partials/comments";
+@import "partials/forms";
+@import "partials/media";
+
+// Helper Classes
+@import "partials/helpers";
